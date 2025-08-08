@@ -1,0 +1,3 @@
+import comp from "/Users/fusigabs/Herd/zioracms-landing/docs/.vuepress/.temp/pages/changelog.html.vue"
+const data = JSON.parse("{\"path\":\"/changelog.html\",\"title\":\"Changelog\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"0.1.0 June 30, 2025\",\"slug\":\"_0-1-0-june-30-2025\",\"link\":\"#_0-1-0-june-30-2025\",\"children\":[]}],\"git\":{\"updatedTime\":1751427734000,\"contributors\":[{\"name\":\"Neba Funwi-gabga\",\"username\":\"\",\"email\":\"fgneba@gmail.com\",\"commits\":1}],\"changelog\":[{\"hash\":\"2e7db0b05e4876131bdc943413d4e63bf608f6bc\",\"time\":1751427734000,\"email\":\"fgneba@gmail.com\",\"author\":\"Neba Funwi-gabga\",\"message\":\"first commit\"}]},\"filePathRelative\":\"changelog.md\"}")
+export { comp, data }

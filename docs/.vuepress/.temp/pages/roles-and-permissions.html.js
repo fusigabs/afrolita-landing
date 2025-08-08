@@ -1,0 +1,3 @@
+import comp from "/Users/fusigabs/Herd/zioracms-landing/docs/.vuepress/.temp/pages/roles-and-permissions.html.vue"
+const data = JSON.parse("{\"path\":\"/roles-and-permissions.html\",\"title\":\"Roles and Permissions\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1751427734000,\"contributors\":[{\"name\":\"Neba Funwi-gabga\",\"username\":\"\",\"email\":\"fgneba@gmail.com\",\"commits\":1}],\"changelog\":[{\"hash\":\"2e7db0b05e4876131bdc943413d4e63bf608f6bc\",\"time\":1751427734000,\"email\":\"fgneba@gmail.com\",\"author\":\"Neba Funwi-gabga\",\"message\":\"first commit\"}]},\"filePathRelative\":\"roles-and-permissions.md\"}")
+export { comp, data }
