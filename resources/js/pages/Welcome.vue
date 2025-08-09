@@ -60,7 +60,7 @@ import Compare from '@/components/ui/compare/Compare.vue';
 function submit() {
     form.post(route('leads'), {
         onSuccess: () => {
-            console.log("Success")
+            form.reset()
         }
     })
 }
@@ -124,6 +124,7 @@ function submit() {
                                 <span class="text-fuchsia-300 font-bold">FREE</span>
                                 profile when we go live!
                             </p>
+
                             <form @submit.prevent="submit" class="grid gap-2 sm:grid-cols-[1fr_1fr_auto]">
                                 <div class="sm:col-span-1">
                                     <label htmlFor="email" class="sr-only">
@@ -156,6 +157,10 @@ function submit() {
                             Choice . Your
                             Crown.
                         </p>
+                        <div v-if="status"
+                            class="p-2 animate-in fade-in duration-700 text-sm rounded bg-green-200 mt-2 text-green-800">
+                            {{ status }}
+                        </div>
                     </div>
                 </div>
                 <div class="relative">
@@ -168,7 +173,8 @@ function submit() {
                             <template #second-content>
                                 <div class="flex size-full items-center justify-center relative">
                                     <img src="/images/after2.jpg" class="object-cover object-top size-full">
-                                    <div class="text-2xl absolute bottom-0 right-0 bg-gray-900 p-2 font-bold text-white/80">
+                                    <div
+                                        class="text-2xl absolute bottom-0 right-0 bg-gray-900 p-2 font-bold text-white/80">
                                         After
                                     </div>
                                 </div>

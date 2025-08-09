@@ -24,7 +24,6 @@ Route::post('/leads', function (Request $request) {
         'location' => $request->location
     ]);
 
-    $request->session()->put('status', 'Thank you. We will let you know when we go live.');
-
-    return Redirect::back();
+    return Redirect::back()->with('status', 'Thank you. We will let you know when we go live.');
+    
 })->name('leads');
