@@ -70,12 +70,12 @@ function submit() {
 
     <Head title="Connecting Afro-stylists to local clients" />
 
-    <div class="bg-indigo-950 overflow-hidden">
+    <div class="bg-black overflow-hidden">
         <header class="sticky backdrop-blur inset-x-0 top-0 z-50">
             <nav class="flex text-white flex-col gap-1 w-full items-center justify-center container mx-auto py-6"
                 aria-label="Global">
-                <BaseLogo :is-dark="true" class="h-14 w-auto" />
-                <p class="text-lg text-fuchsia-400">Connecting Afro-beauty pros to local clients.</p>
+                <img src="/logo.png" alt="Afrolita Logo" class="h-14 w-auto" />
+                <p class="text-lg text-fuchsia-100">Connecting Afro-beauty pros to local clients.</p>
             </nav>
         </header>
 
@@ -85,7 +85,7 @@ function submit() {
             <div class="container relative z-10 mx-auto grid max-w-7xl gap-10 px-4 md:grid-cols-2 md:items-center">
                 <div class="text-white">
                     <div
-                        class="mb-4 animate-in zoom-in-90 duration-1000 flex md:inline-flex items-center gap-2 rounded-lg bg-fuchsia-400 px-3 py-1 text-sm text-gray-950">
+                        class="mb-4 animate-in zoom-in-90 duration-1000 flex md:inline-flex items-center gap-2 rounded-lg bg-fuchsia-200 px-3 py-1 text-base text-gray-950">
                         Platform launching soon. Join the waitlist!
                     </div>
 
@@ -94,7 +94,8 @@ function submit() {
                             class="text-center md:text-left text-4xl lg:text-6xl font-serif font-bold mb-5 leading-tight animate-in slide-in-from-top-25 duration-1000">
                             <span class="luxury-text">Build Your Independent</span> <br />
                             <span class="font-serif font-extrabold text-fuchsia-300 script sparkle">Afro
-                                Beauty</span>&nbsp;
+                                Beauty
+                            </span>&nbsp;
                             <span class="luxury-text">Empire</span>
                         </div>
                         <p
