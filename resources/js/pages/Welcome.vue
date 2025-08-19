@@ -75,7 +75,7 @@ function submit() {
             <nav class="flex text-white flex-col gap-1 w-full items-center justify-center container mx-auto py-6"
                 aria-label="Global">
                 <img src="/logo.png" alt="Afrolita Logo" class="h-14 w-auto" />
-                <p class="text-lg text-fuchsia-100">Connecting Afro-beauty pros to local clients.</p>
+                <p class="text-lg text-brown-100">Connecting Afro-beauty pros to local clients.</p>
             </nav>
         </header>
 
@@ -85,7 +85,7 @@ function submit() {
             <div class="container relative z-10 mx-auto grid max-w-7xl gap-10 px-4 md:grid-cols-2 md:items-center">
                 <div class="text-white">
                     <div
-                        class="mb-4 animate-in zoom-in-90 duration-1000 flex md:inline-flex items-center gap-2 rounded-lg bg-fuchsia-200 px-3 py-1 text-base text-gray-950">
+                        class="mb-4 animate-in zoom-in-90 duration-1000 flex md:inline-flex items-center gap-2 rounded-lg bg-brown px-3 py-1 text-base text-white">
                         Platform launching soon. Join the waitlist!
                     </div>
 
@@ -93,7 +93,7 @@ function submit() {
                         <div
                             class="text-center md:text-left text-4xl lg:text-6xl font-serif font-bold mb-5 leading-tight animate-in slide-in-from-top-25 duration-1000">
                             <span class="luxury-text">Build Your Independent</span> <br />
-                            <span class="font-serif font-extrabold text-fuchsia-300 script sparkle">Afro
+                            <span class="font-serif font-extrabold text-brown-300 script sparkle">Afro
                                 Beauty
                             </span>&nbsp;
                             <span class="luxury-text">Empire</span>
@@ -122,7 +122,7 @@ function submit() {
                         <div class="mt-8 animate-in slide-in-from-right-10 duration-1000">
                             <p class="my-3 text-sm text-zinc-200">
                                 Get notified to set up your
-                                <span class="text-fuchsia-300 font-bold">FREE</span>
+                                <span class="text-brown-300 font-bold">FREE</span>
                                 profile when we go live!
                             </p>
 
@@ -134,7 +134,7 @@ function submit() {
                                     <Input id="email" v-model="form.email" name="email" type="email"
                                         autoComplete="email" placeholder="Your email"
                                         class="h-10 w-full bg-white text-black placeholder:text-zinc-500" required />
-                                    <p v-if="form.errors.email" class="mt-1 text-xs text-fuchsia-400">
+                                    <p v-if="form.errors.email" class="mt-1 text-xs text-brown-400">
                                         {{ form.errors.email }}
                                     </p>
                                 </div>
@@ -147,7 +147,7 @@ function submit() {
                                         class="h-10 w-full bg-white text-black placeholder:text-zinc-500" />
                                 </div>
 
-                                <Button variant="destructive" :disabled="form.processing" class="!h-11 cursor-pointer"
+                                <Button variant="brown" :disabled="form.processing" class="!h-11 cursor-pointer"
                                     size="lg">
                                     <Loader v-if="form.processing" class="size-5 animate-spin" /> Notify me!
                                 </Button>
@@ -175,7 +175,7 @@ function submit() {
                                 <div class="flex size-full items-center justify-center relative">
                                     <img src="/images/after2.jpg" class="object-cover object-top size-full">
                                     <div
-                                        class="text-2xl absolute bottom-0 right-0 bg-gray-900 p-2 font-bold text-white/80">
+                                        class="text-2xl absolute bottom-0 right-0 bg-brown p-2 font-bold text-white/80">
                                         After
                                     </div>
                                 </div>
@@ -183,7 +183,7 @@ function submit() {
                             <template #first-content>
                                 <div class="flex size-full items-center justify-center relative">
                                     <img src="/images/before.jpg" class="object-cover object-top size-full">
-                                    <div class="text-2xl absolute top-0 left-0 bg-gray-900 p-2 font-bold text-white/80">
+                                    <div class="text-2xl absolute top-0 left-0 bg-brown p-2 font-bold text-white/80">
                                         Before
                                     </div>
                                 </div>
@@ -192,18 +192,18 @@ function submit() {
                     </div>
 
                     <div
-                        class="absolute z-20 left-0 -bottom-6 right-0 hidden w-56 rounded-xl bg-zinc-950/50 p-4 text-zinc-200 ring-1 ring-zinc-800 backdrop-blur md:block">
+                        class="absolute z-20 left-0 -bottom-6 right-0 hidden w-56 rounded-xl bg-brown-900/50 p-4 text-zinc-200 ring-1 ring-zinc-800 backdrop-blur md:block">
                         <div class="flex items-center gap-2">
-                            <Scissors class="h-4 w-4 text-fuchsia-400" />
+                            <Scissors class="h-4 w-4 text-brown-400" />
                             <p class="text-sm">Know how to braid?</p>
                         </div>
                         <p class="mt-1 text-sm text-zinc-200">Get paid for transforming looks!</p>
                     </div>
 
                     <div
-                        class="absolute z-20 -top-20 right-0 hidden w-56 rounded-xl bg-zinc-950/50 p-4 text-zinc-200 ring-1 ring-zinc-800 backdrop-blur md:block">
+                        class="absolute z-20 -top-20 right-0 hidden w-56 rounded-xl bg-brown-950/50 p-4 text-zinc-200 ring-1 ring-zinc-800 backdrop-blur md:block">
                         <div class="flex items-center gap-2">
-                            <Scissors class="h-4 w-4 text-fuchsia-400" />
+                            <Scissors class="h-4 w-4 text-brown-400" />
                             <p class="text-sm">Build confidence</p>
                         </div>
                         <p class="mt-1 text-sm text-zinc-200">Build Beauty Beyond Boundaries!</p>
@@ -227,11 +227,11 @@ function submit() {
                     you've always dreamed of.
                 </p>
                 <div class="mt-2 grid gap-6 p-4 lg:p-0 rounded-lg lg:mt-10 lg:grid-cols-3">
-                    <div class=" bg-white rounded ring-1 ring-gray-200 hover:ring-fuchsia-400 p-8 shadow-lg text-gray-800"
+                    <div class=" bg-white rounded ring-1 ring-gray-200 hover:ring-brown-400 p-8 shadow-lg text-gray-800"
                         v-for="(feature, index) in features" :key="index">
                         <div class="mb-2 flex flex-col _items-center gap-2 text-2xl font-bold text-gray-700">
-                            <div class="size-16 rounded-full bg-fuchsia-100 flex items-center justify-center">
-                                <component :is="feature.icon" class="text-fuchsia-500 size-8" />
+                            <div class="size-16 rounded-full bg-brown flex items-center justify-center">
+                                <component :is="feature.icon" class="text-brown-50 size-8" />
                             </div>
                             <h1>{{ feature.title }}</h1>
                         </div>
@@ -248,7 +248,7 @@ function submit() {
             <div class="mt-2 bg-whitex max-w-3xl mx-auto p-6 rounded-xl lg:mt-10">
                 <Accordion type="single" class="w-full flex flex-col gap-2" collapsible>
                     <AccordionItem v-for="item in faqs" :key="item.value" :value="item.value"
-                        class="border-b-none ring ring-gray-700 border-l-8 bg-gray-900/50 border-gray-900/50 data-[state=open]:border-l-fuchsia-500">
+                        class="border-b-none ring ring-gray-700 border-l-8 bg-gray-900/50 border-gray-900/50 data-[state=open]:border-l-brown-500">
                         <AccordionTrigger
                             class="text-lg text-gray-100 rounded-none  px-4 hover:no-underline cursor-pointer">
                             {{ item.title }}
